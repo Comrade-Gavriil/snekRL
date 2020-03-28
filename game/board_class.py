@@ -1,4 +1,4 @@
-from snek_class import snek
+from game.snek_class import snek
 import os
 import numpy as np
 import math
@@ -123,6 +123,3 @@ class board:
             snek.step(self.board_info, move)
 
 
-board = board(2)
-while len(board.sneks) > 0 :
-    board.step(ai_tester())
