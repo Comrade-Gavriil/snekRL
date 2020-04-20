@@ -1,4 +1,4 @@
-from game.snek_class import snek
+from snek_class import snek
 import os
 import numpy as np
 import math
